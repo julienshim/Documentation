@@ -1,10 +1,10 @@
 # Publishing Create-React-App on GitHub Pages
 
-###Overview
+### Overview
 
 This guide was written to help my fellow students upload and publish their Create-React-App onto GitHub Pages.
 
-###Table of Contents
+### Table of Contents
 
 - Part 1 - [Syncing 'Create-React-App <App Name>' with GitHub Repository](#part-one)
 - Part 2 - [Publishing 'Create-React-App <App Name>' onto GitHub Pages](#part-two)
