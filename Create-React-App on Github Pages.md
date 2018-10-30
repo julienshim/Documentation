@@ -29,7 +29,7 @@ This guide was written to help my fellow students upload and publish their Creat
 
   ```"homepage": "https://<username>.github.io/<repo-name>",```
 
-Here is a visual aide:
+Example:
 
 ```
   ...
@@ -37,6 +37,8 @@ Here is a visual aide:
     "homepage": "https://julienshim.github.io/clicky-game",
     "dependencies": {
   ...
+
+  Note: I personally put homepage between `private` and `dependencies` as shown above. Whereever you put it, make sure you're mindful of the commas.
 ```
 
 I personally put it between private and dependencies as shown above. Wherever your put it, make sure you’re mindful of the commas.
