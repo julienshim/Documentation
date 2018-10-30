@@ -38,7 +38,7 @@ Example:
     "dependencies": {
   ...
 
-  Note: I personally put homepage between `private` and `dependencies` as shown above. Whereever you put it, make sure you're mindful of the commas.
+  Note: I personally put homepage between `private` and `dependencies` as shown above.  Wherever you put it, make sure you're mindful of the commas.
 ```
 
 I personally put it between private and dependencies as shown above. Wherever your put it, make sure you’re mindful of the commas.
