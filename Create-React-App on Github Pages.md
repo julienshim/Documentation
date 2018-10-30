@@ -1,14 +1,15 @@
-# Publishing Create-React-App on Git Hub Pages
+# Publishing Create-React-App on GitHub Pages
 
-Here is my TL:DR guide for the following:
+** Overview **
 
-*Part I. You ‘create-react-app <chicken>’ but you forgot how to sync it to your GitHub.*
+This guide was written to help my fellow students upload and publish their Create-React-App onto GitHub Pages.
 
-*Part II. You’re finished with your homework, but don’t know how to make it GitHub pages official.*
+** Table of Contents **
 
-------------------------------------------------------------------
+- Part 1 - [Syncing 'Create-React-App <App Name>' with GitHub Repository](#part-one)
+- Part 2 - [Publishing 'Create-React-App <App Name>' onto GitHub Pages](#part-two)
 
-*Part I. You ‘create-react-app <chicken>’ but you forgot how to sync it to your GitHub.*
+### Syncing 'Create-React-App <App Name>' with GitHub Repository {#part-one}
 
 Step 1: CD into your react app folder and `git init`
 
@@ -20,9 +21,7 @@ Step 4: Copy the `git remote add origin git@github.com:<username>/<repo>.git` an
 
 Step 5: If you’re still working, please do so and commit often. If you’re done with the assignment. Proceed to Part II if needed.
 
-------------------------------------------------------------------
-
-*Part II. You’re finished with your React App, but don’t know how to make it GitHub pages official.*
+### Publishing 'Create-React-App <App Name>' onto GitHub Pages {#part-two}
 
 Step 1: CD into your react app folder if you haven’t already.
 
