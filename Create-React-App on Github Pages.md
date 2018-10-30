@@ -42,7 +42,7 @@ Example:
         Wherever you put it, make sure you're mindful of the commas.
 ```
 
-- Step 4: Back in your terminal, enter the following command: `yarn add gh-pages` (since we've been using yarn), but alternatively, you can use `npm install --save gh-pages`.
+- Step 4: Back in your terminal, enter the following command to install GitHub Pages: `yarn add gh-pages` (since we've been using yarn), but alternatively, you can use `npm install --save gh-pages`.
 
 - Step 5. Back to your package.json, make sure you have the following marked in *bold* under `“scripts”` after `"deploy": "gh-pages -d build"`:
 
@@ -67,8 +67,8 @@ Example:
 }
 ```
 
-- Step 6: Enter the following in your terminal: `npm run deploy`
+- Step 6: Enter the following in your terminal: `npm run deploy` to publish to GitHub Pages.
 
-- Step 7: Head back to your repo. Click `Settings` and under `GitHub Pages` confirm that your React App is published.
+- Step 7: Head back to your repo on GitHub.com. Click `Settings` and under `GitHub Pages` confirm that your React App is published.
 
-- Step 8: Might as well submit your links to bootcampspot. (edited)
+- Step 8: Once your confirm that publishing your app has been successful, you might as well submit your links to BootCampSpot to ensure that your homework was submitted on time.
