@@ -47,25 +47,23 @@ Example:
 - Step 5. Back to your package.json, make sure you have the following marked in *bold* under `“scripts”` after `"deploy": "gh-pages -d build"`:
 
 ```
-{
-  "name": "clicky-game",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "https://julienshim.github.io/clicky-game",
-  "dependencies": {
-    "gh-pages": "^1.2.0",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
-  },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    **"start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"**
-  }
+"name": "clicky-game",
+"version": "0.1.0",
+"private": true,
+"homepage": "https://julienshim.github.io/clicky-game",
+"dependencies": {
+  "gh-pages": "^1.2.0",
+  "react": "^16.4.1",
+  "react-dom": "^16.4.1",
+  "react-scripts": "1.1.4"
+},
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  **"start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test --env=jsdom",
+  "eject": "react-scripts eject"**
 }
 ```
 
