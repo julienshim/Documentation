@@ -6,38 +6,38 @@ This guide was written to help my fellow students upload and publish their Creat
 
 ### Table of Contents
 
-- Part 1 - [Syncing 'Create-React-App <App Name>' with GitHub Repository](#part-one)
-- Part 2 - [Publishing 'Create-React-App <App Name>' onto GitHub Pages](#part-two)
+- Part A - [Syncing 'Create-React-App <App Name>' with GitHub Repository](#part-one)
+- Part B - [Publishing 'Create-React-App <App Name>' onto GitHub Pages](#part-two)
 
-### Part 1 - <a name="part-one"></a>Syncing 'Create-React-App <App Name>' with GitHub Repository
+### Part A - <a name="part-one"></a>Syncing 'Create-React-App <App Name>' with GitHub Repository
 
-Step 1: CD into your react app folder and `git init`
+- Step 1: From your Create-React-App root folder initialize git via the `git init` command.
 
-Step 2: Whether your freshly create a react app folder or you’re working on your app, always a good idea to `git add <file(s)>` and `git commit -m <message in quotes>`
+- Step 2: Whether you're working from a freshly created Create-React-App folder or touching up on the final details, it's always a good idea to `git add <file(s)>` and `git commit -m <message in quotes>` to commit your app's current state.
 
-Step 3: Visit github.com and hit `+` > `New repository` in the upper right corner. Enter the name of your app folder under `Repository Name`, and DO NOT _Initialize this repository with a README_. Instead click the green `Create repository` button.
+- Step 3: Visit github.com, log into your GitHub account if you haven't already, and hit `+` > `New repository` in the upper right corner. Enter the name of your app folder under `Repository Name`. DO NOT _Initialize this repository with a README_. Instead `Create repository`.
 
-Step 4: Copy the `git remote add origin git@github.com:<username>/<repo>.git` and paste it in your terminal. Hit enter, then `git push -u origin master`
+- Step 4: On the newly loaded page, copy the `git remote add origin git@github.com:<username>/<repo>.git` script and paste it in your terminal. Hit enter, then `git push -u origin master` to push up current files into your GitHub repo.
 
-Step 5: If you’re still working, please do so and commit often. If you’re done with the assignment. Proceed to Part II if needed.
+- Step 5: If you’re still working, please do so and commit often. If you’re done with the assignment. Proceed to Part B.
 
-### Part 2 - <a name="part-two"></a>Publishing 'Create-React-App <App Name>' onto GitHub Pages
+### Part B - <a name="part-two"></a>Publishing 'Create-React-App <App Name>' onto GitHub Pages
 
-Step 1: CD into your react app folder if you haven’t already.
+- Step 1: From Visual Studio Code Explorer (the left hand side file navigation tool that expands when clicking the dual pages icon), locate your package.json in your root folder and double-click to open. We’re going to make some edits.
 
-Step 2: In VS Code explorer (that left side viewer that shows your files and folders), locate your package.json and double-click to open. We’re going to make some edits.
-
-Step 3: Somewhere in the package.json, you will need to enter the following line.
+- Step 3: Somewhere in the package.json, you will need to enter the following line.
 
   ```"homepage": "https://<username>.github.io/<repo-name>",```
 
 Here is a visual aide:
 
-```...
-"private": true,
-"homepage": "https://julienshim.github.io/clicky-game",
-"dependencies": {
-...``` 
+```
+  ...
+    "private": true,
+    "homepage": "https://julienshim.github.io/clicky-game",
+    "dependencies": {
+  ...
+```
 
 I personally put it between private and dependencies as shown above. Wherever your put it, make sure you’re mindful of the commas.
 
