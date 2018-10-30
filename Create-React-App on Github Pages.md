@@ -23,9 +23,9 @@ This guide was written to help my fellow students upload and publish their Creat
 
 ### Part B - <a name="part-two"></a>Publishing 'Create-React-App <App Name>' onto GitHub Pages
 
-- Step 1: From Visual Studio Code Explorer (the left hand side file navigation tool that expands when clicking the dual pages icon), locate your package.json in your root folder and double-click to open. We’re going to make some edits.
+- Step 6: From Visual Studio Code Explorer (the left hand side file navigation tool that expands when clicking the dual pages icon), locate your package.json in your root folder and double-click to open. We’re going to make some edits.
 
-- Step 3: Somewhere in the package.json, you will need to enter the following line.
+- Step 7: Somewhere in the package.json, you will need to enter the following line.
 
   ```"homepage": "https://<username>.github.io/<repo-name>",```
 
@@ -42,9 +42,9 @@ Example:
         Wherever you put it, make sure you're mindful of the commas.
 ```
 
-- Step 4: Back in your terminal, enter the following command to install GitHub Pages: `yarn add gh-pages` (since we've been using yarn), but alternatively, you can use `npm install --save gh-pages`.
+- Step 8: Back in your terminal, enter the following command to install GitHub Pages: `yarn add gh-pages` (since we've been using yarn), but alternatively, you can use `npm install --save gh-pages`.
 
-- Step 5. Back to your package.json, make sure you have the following marked in *bold* under `“scripts”` after `"deploy": "gh-pages -d build"`:
+- Step 9. Back to your package.json, make sure you have the following marked in *bold* under `“scripts”` after `"deploy": "gh-pages -d build"`:
 
 ```
 "name": "clicky-game",
@@ -67,8 +67,8 @@ Example:
 }
 ```
 
-- Step 6: Enter the following in your terminal: `npm run deploy` to publish to GitHub Pages.
+- Step 10: Enter the following in your terminal: `npm run deploy` to publish to GitHub Pages.
 
-- Step 7: Head back to your repo on GitHub.com. Click `Settings` and under `GitHub Pages` confirm that your React App is published.
+- Step 11: Head back to your repo on GitHub.com. Click `Settings` and under `GitHub Pages` confirm that your React App is published.
 
-- Step 8: Once your confirm that publishing your app has been successful, you might as well submit your links to BootCampSpot to ensure that your homework was submitted on time.
+- Step 12: Once your confirm that publishing your app has been successful, you might as well submit your links to BootCampSpot to ensure that your homework was submitted on time.
