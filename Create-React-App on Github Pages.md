@@ -42,16 +42,9 @@ Example:
         Wherever you put it, make sure you're mindful of the commas.
 ```
 
-I personally put it between private and dependencies as shown above. Wherever your put it, make sure you’re mindful of the commas.
+- Step 4: Back in your terminal, enter the following command: `yarn add gh-pages` (since we've been using yarn), but alternatively, you can use `npm install --save gh-pages`.
 
-Step 4: Back in your terminal, enter the following command: `yarn add gh-pages` (why not, because we used yarn, but you can alternatively use `npm install --save gh-pages`
-
-Step 5. Back to your package.json, make sure you have the following under “scripts” after the opening {
-
-```"predeploy": "npm run build",
-"deploy": "gh-pages -d build",```
-
-In context, your package.json should look something like this in the end:
+- Step 5. Back to your package.json, make sure you have the following marked in *bold* under `“scripts”` after `"deploy": "gh-pages -d build"`:
 
 ```{
   "name": "clicky-game",
@@ -67,15 +60,15 @@ In context, your package.json should look something like this in the end:
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    **"start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject"**
   }
 }```
 
-Step 6: Enter the following in your terminal: `npm run deploy`
+- Step 6: Enter the following in your terminal: `npm run deploy`
 
-Step 7: Head back to your repo. Click `Settings` and under `GitHub Pages` confirm that your React App is published.
+- Step 7: Head back to your repo. Click `Settings` and under `GitHub Pages` confirm that your React App is published.
 
-Step 8: Might as well submit your links to bootcampspot. (edited)
+- Step 8: Might as well submit your links to bootcampspot. (edited)
