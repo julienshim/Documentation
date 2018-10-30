@@ -6,10 +6,10 @@ This guide was written to help my fellow students upload and publish their Creat
 
 ** Table of Contents **
 
-- Part 1 - <a name="part-one"></a>Syncing 'Create-React-App <App Name>' with GitHub Repository
-- Part 2 - <a name="part-two"></a>Publishing 'Create-React-App <App Name>' onto GitHub Pages
+- Part 1 - [Syncing 'Create-React-App <App Name>' with GitHub Repository](#part-one)
+- Part 2 - [Publishing 'Create-React-App <App Name>' onto GitHub Pages](#part-two)
 
-### Syncing 'Create-React-App <App Name>' with GitHub Repository {#part-one}
+## Part 1 - <a name="part-one"></a>Syncing 'Create-React-App <App Name>' with GitHub Repository
 
 Step 1: CD into your react app folder and `git init`
 
@@ -21,7 +21,7 @@ Step 4: Copy the `git remote add origin git@github.com:<username>/<repo>.git` an
 
 Step 5: If you’re still working, please do so and commit often. If you’re done with the assignment. Proceed to Part II if needed.
 
-### Publishing 'Create-React-App <App Name>' onto GitHub Pages {#part-two}
+## Part 2 - <a name="part-two"></a>Publishing 'Create-React-App <App Name>' onto GitHub Pages
 
 Step 1: CD into your react app folder if you haven’t already.
 
