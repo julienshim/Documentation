@@ -46,7 +46,8 @@ Example:
 
 - Step 5. Back to your package.json, make sure you have the following marked in *bold* under `“scripts”` after `"deploy": "gh-pages -d build"`:
 
-```{
+```
+{
   "name": "clicky-game",
   "version": "0.1.0",
   "private": true,
@@ -65,7 +66,8 @@ Example:
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"**
   }
-}```
+}
+```
 
 - Step 6: Enter the following in your terminal: `npm run deploy`
 
