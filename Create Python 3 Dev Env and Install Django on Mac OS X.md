@@ -86,12 +86,12 @@ $ python3 --version
 ### Step 5 - Creating a Virtual Environment
 
 1. Choose the directory you would like to put your Python programming environments in using the `cd` commands.
-2. Make an environments directory via `mkdir ** Environments **` or whichever name you would like to call it.
-3. `cd ** Environments **` into the directory.
-4. Once you're in your `**Environments**` directory, you can run the following command to create an environment.
+2. Make an *Environments* directory (or whichever name you would like to call it) via `mkdir Environments`.
+3. `cd Environments` into the directory.
+4. Once you're in your `Environments` directory, you can run the following command to create an environment. You can replace the *my_env* with your own environment name.
 
 ```
-$ python 3.7 -m venv **my_env** (or which ever you'd like to call your environment e.g. py_env)
+$ python 3.7 -m venv my_env
 
 ```
 
