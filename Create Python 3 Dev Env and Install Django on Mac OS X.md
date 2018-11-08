@@ -120,7 +120,7 @@ pip install django
 2. Creating an App
 
 ```
-django-admin startproject **helloapp**
+django-admin startproject helloapp
 ```
 
 3. Running the above command will install the following structure:
